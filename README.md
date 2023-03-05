@@ -24,7 +24,7 @@ Once the basic concepts are out there, it will go through the most relevant use 
 
 Please, find below one example for better understanding (balls are the commits, SHA hashes are on top and the number inside shows when the commits was made on each branch).
 
-![Feature_1](https://github.com/dloira/dls_DynamicClassLoading/blob/master/Images/GITFLOW_FEATURE-BRANCH_1.png)
+![Feature_1](https://github.com/dloira/dls_GitFlowInAction/blob/master/Images/GITFLOW_FEATURE-BRANCH_1.png)
 
 Git bash snipped hereunder.
 
@@ -66,7 +66,7 @@ Finally, **develop** has to be rebased from **master** to sync both and keep a c
 
 Please, find below one example for better understanding (balls are the commits, SHA hashes are on top and the number inside shows when the commits was made on each branch).
 
-![Feature_2](https://github.com/dloira/dls_DynamicClassLoading/blob/master/Images/GITFLOW_FEATURE-BRANCH_2.png)
+![Feature_2](https://github.com/dloira/dls_GitFlowInAction/blob/master/Images/GITFLOW_FEATURE-BRANCH_2.png)
 
 Git bash snipped hereunder.
 
@@ -141,7 +141,7 @@ Finally, **develop** has to be rebased from **master** to sync both and keep a c
 
 Please, find below one example for better understanding (balls are the commits, SHA hashes are on top and the number inside shows when the commits was made on each branch).
 
-![ReleaseCandidate_1](https://github.com/dloira/dls_DynamicClassLoading/blob/master/Images/GITFLOW_RELEASECANDIDATE-BRANCH_1.png)
+![ReleaseCandidate_1](https://github.com/dloira/dls_GitFlowInAction/blob/master/Images/GITFLOW_RELEASECANDIDATE-BRANCH_1.png)
 
 Git bash snipped hereunder.
 
@@ -213,7 +213,7 @@ Finally, new **release candidate** branched off of **develop** from the last com
 
 Please, find below one example for better understanding (balls are the commits, SHA hashes are on top and the number inside shows when the commits was made on each branch).
 
-![ReleaseCandidate_2](https://github.com/dloira/dls_DynamicClassLoading/blob/master/Images/GITFLOW_RELEASECANDIDATE-BRANCH_2.png)
+![ReleaseCandidate_2](https://github.com/dloira/dls_GitFlowInAction/blob/master/Images/GITFLOW_RELEASECANDIDATE-BRANCH_2.png)
 
 Git bash snipped hereunder.
 
@@ -293,7 +293,7 @@ Finally, **develop** has to be rebased from **master** to sync both and keep a c
 
 Please, find below one example for better understanding (balls are the commits, SHA hashes are on top and the number inside shows when the commits was made on each branch).
 
-![HotFix_1](https://github.com/dloira/dls_DynamicClassLoading/blob/master/Images/GITFLOW_HOTFIX-BRANCH_1.png)
+![HotFix_1](https://github.com/dloira/dls_GitFlowInAction/blob/master/Images/GITFLOW_HOTFIX-BRANCH_1.png)
 
 Git bash snipped hereunder.
 
@@ -349,7 +349,7 @@ Finally, new **release candidate** (rc_2)branched off of **develop** from the la
 
 Please, find below one example for better understanding (balls are the commits, SHA hashes are on top and the number inside shows when the commits was made on each branch).
 
-![HotFix_2](https://github.com/dloira/dls_DynamicClassLoading/blob/master/Images/GITFLOW_HOTFIX-BRANCH_2.png)
+![HotFix_2](https://github.com/dloira/dls_GitFlowInAction/blob/master/Images/GITFLOW_HOTFIX-BRANCH_2.png)
 
 Git bash snipped hereunder.
 
@@ -422,7 +422,7 @@ Before to rebase **develop**, new **release candidate** (rc_1-squash) has to be 
 
 Finally, **develop** has to be rebased from new **release candidate** (rc_1-squash) to sync both and keep a common seed commits chain; please advise the SHA hashes overwriting for further existing commits on **develop**.
 
-![Squash_1](https://github.com/dloira/dls_DynamicClassLoading/blob/master/Images/GITFLOW_SQUASH_1.png)
+![Squash_1](https://github.com/dloira/dls_GitFlowInAction/blob/master/Images/GITFLOW_SQUASH_1.png)
 
 Git bash snipped hereunder.
 
@@ -473,7 +473,7 @@ $ git push --force
 
 Instead of branching off of **release candidate** (rc_1), it could be branched off of **develop** from the same commit which rc_1 was created. This approach avoids to reset commits from new **release candidate** (rc_1-squash).
 
-![Squash_2](https://github.com/dloira/dls_DynamicClassLoading/blob/master/Images/GITFLOW_SQUASH_2.png)
+![Squash_2](https://github.com/dloira/dls_GitFlowInAction/blob/master/Images/GITFLOW_SQUASH_2.png)
 
 Git bash snipped hereunder.
 
